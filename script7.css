@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    border: rgb(70, 214, 34);
+    border-radius: 10px;
+    background-color: rgb(243, 239, 26);
+    
+  }
+  #container {
+    margin: 50px;
+    background-color: salmon;
+    width:90%;
+    align-content: center;
+    background-image:url(poke.jpg);
+    border: purple;
+    box-sizing: border-box;
+    border-right: purple;
+  }
+  #poke {
+    margin: 50px;
+    width: 90%;
+    padding: 10px;
+    height: 90px;
+  }
+  #main-container{
+    border-radius:20px;
+  }
+  #header{
+      margin: auto;
+      text-align: center;
+      color:rgb(247, 243, 6);
+      background-blend-mode: normal;
+      
+  }
+  #generate-pokemon {
+    margin: 20px;
+    color: rgb(216, 213, 27);
+  }
+  #delete-btn {
+    position: absolute;
+    left: 85%;
+    display: none;
+    margin-bottom: 5%;
+  }
